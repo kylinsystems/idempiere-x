@@ -10,6 +10,9 @@
 
 .form-button {
 	width: 99%;
+	color: #333434;
+	background-image: linear-gradient(to bottom, #f8c36d, #f8c36d);
+	font-weight: bold;
 }
 
 .form-button img {

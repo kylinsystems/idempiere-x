@@ -16,10 +16,11 @@
 }
 
 .desktop-header {
-	background-color: #E4E4E4;
+	background-color: #FA8072 !important;
+	background-image: linear-gradient(#91bee6, #E9F0FF);
 	width: 100%;
 	height: 46px;
-	border-bottom: 1px solid #C5C5C5 !important;
+	border-bottom: 0px solid #C5C5C5 !important;
 	padding-left: 4px;
 }
 .desktop-header.mobile {
@@ -77,6 +78,30 @@
 }
 
 .desktop-tabbox .z-tab {
+	margin-right: 2px;
+}
+
+.desktop-tabbox .z-tabs-content {
+    background-color: #E9F0FF;
+}
+
+<%-- customization for search window --%>
+.desktop-tabbox .z-window-content .z-tabs-content {
+    width: 5555px !important;
+    background-color: #ffffff;
+}
+
+.desktop-tabbox .z-window-content .z-row .z-row-inner, .z-row .z-cell {
+    border-right: 0px;
+    background-color: #eaf0ff;
+}
+
+.desktop-tabbox .z-window-content .z-south {
+	border: none;
+	background-color: #ffffff;
+}
+
+.desktop-tabbox .z-tab {
 	height: 24px;
 }
 @media screen and (max-width: 360px) {
@@ -90,7 +115,7 @@
 }
 
 .desktop-tabbox .z-tab-selected {
-	border-top: 2px solid #666;
+	border-top: 3px solid #F39700;
 	border-top-left-radius: 5px 5px;
 	border-top-right-radius: 5px 5px;
 }
@@ -113,12 +138,23 @@
 	background-color: #E4E4E4;
 }
 
+.desktop-center .z-window-content {
+	border-bottom: 1px solid #C5C5C5 !important;
+	border-right: 1px solid #c5c5c5 !important;
+	border-left: 1px solid #c5c5c5 !important;
+}
+
+.desktop-center .desktop-tabbox .z-tabpanel {
+    background: #eaf0ff;
+    padding: 0px 0px 0px 0px;
+}
+
 .desktop-tabpanel {
 	margin: 0;
 	padding: 0;
 	border: 0;
 	position: relative !important;
-	background-color: #FFFFFF
+	background-color: #E9F0FF
 }
 
 .desktop-left-column {
@@ -139,20 +175,24 @@
 
 .desktop-left-column + .z-west-splitter,  .desktop-left-column.z-west {
 	border-top: none; 
-	border-right: 1px solid #c5c5c5;
+	border-right: 0px solid #c5c5c5;
+	background-color: #E9F0FF;
 }
 
 .desktop-right-column + .z-east-splitter,  .desktop-right-column.z-east {
 	border-top: none; 
-	border-left: 1px solid #c5c5c5;
+	border-left: 0px solid #c5c5c5;
+	background-color: #E9F0FF;
 }
 
 .desktop-left-column .z-west-body {
 	border-right: none;
+	background-color: #E9F0FF;
 }
 
 .desktop-right-column .z-east-body {
 	border-left: none;
+	background-color: #E9F0FF;
 }
 
 .desktop-layout > div > .z-west-collapsed, .desktop-layout > div > .z-east-collapsed {
@@ -168,6 +208,7 @@
 .z-anchorchildren { overflow:visible }
 
 .desktop-hometab {
+    margin-left: 2px !important;
 }
 
 .desktop-tabbox .z-tabs .z-toolbar-tabs-body {
@@ -233,7 +274,7 @@
 }
 
 .desktop-home-tabpanel .z-panel-head {
-	background-color: #FFFFFF;
+	background-color: #91BEE6;
 }
 
 <%-- window container --%>

@@ -7,7 +7,7 @@
 }
 
 .z-panel-head {
-	background-image: none; background-color: #FFFFFF;
+	background-image: none; background-color: #91BEE6;
 }
 
 .dashboard-widget.z-panel {
@@ -45,7 +45,7 @@
 .z-panel-head .z-panel-header {
 	padding: 0 0 2px 0;
 	color: #262626; 
-	background: white;
+	background: #91BEE6;
 	font-weight: 300;
 	font-size: 13px;
 }	
@@ -70,7 +70,11 @@
 	margin-right: auto;
 	position: relative;
 	width: 99%;	
-	height: 100%;
+    height: 100%;
+}
+
+.dashboard-widget .z-window-embedded .z-window-content {
+	background: #91bee6 !important;
 }
 
 .dashboard-widget-max {
@@ -163,7 +167,18 @@
 
 .views-box .z-toolbarbutton {
 	width: 100%;
-	padding: 0px 14px;
+    padding: 4px 4px 4px 4px;
+    background: #FCF9EA !important;
+    display: block;
+    border: 1px solid #cccccc !important;
+}
+
+.views-box .z-toolbarbutton:hover {
+	background: #FBD87E !important;
+	text-decoration: none !important;
+	display: block;
+    border: 1px solid #cccccc !important;
+	padding: 4px 4px 4px 4px;
 }
 
 .views-box .link img {
@@ -174,8 +189,12 @@
 	text-align: center;
 }
 .views-box .z-toolbarbutton [class^="z-icon"]:before {
-	width: 16px;
-	display: inline-block;
+    width: 16px;
+    display: inline-block;
+}
+.views-box .z-toolbarbutton-content{
+	text-decoration: none !important;
+	color: #333 !important;
 }
 
 .activities-box {

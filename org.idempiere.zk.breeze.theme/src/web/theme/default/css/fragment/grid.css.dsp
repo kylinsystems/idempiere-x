@@ -81,7 +81,7 @@ div.z-column-cnt, div.z-grid-header div.z-auxheader-cnt {
 }
 
 .z-grid-body {
-	background-color: #FFF;
+	background-color: #E9F0FF;
 }
 
 <%-- grid layout --%>
@@ -126,6 +126,14 @@ div.grid-view-color-fieldtype-display {
 }
 
 div.grid-view-color-fieldtype-display > div {
-	width: 95%;
-	height: 80%;
+    width: 95%;
+    height: 80%;
+}
+
+tr.z-grid-odd td.z-row-inner, tr.z-grid-odd .z-cell, tr.z-grid-odd {
+	background-color: #E0EAF7;
+}
+
+.z-row-content{
+	padding: 1px 2px;
 }

@@ -8,14 +8,14 @@
 
 .info-panel .statusBar .z-west,
 .info-panel .statusBar .z-center {
-    background: #F4F4F4;
+    background: #e9f0ff;
 	border: none;
 	padding-top: 2px;
 	padding-left: 4px;
 }
 
 .info-panel .statusBar .z-east {
-    background: #F4F4F4;
+    background: #e9f0ff;
 	border: none;
 	padding-top: 2px;
 	padding-left: 4px;
@@ -51,7 +51,15 @@
 	max-height: 50%;
 }
 
+.info-panel .z-listheader {
+    background-image: linear-gradient(to bottom, #cce5f4, hsl(203deg 65% 88%));
+}
+
 .info-panel .z-listheader > .z-listheader-content {
 	white-space: pre-line;
 	text-overflow: ellipsis;
+}
+
+.info-panel .z-south-header {
+    background: linear-gradient(to bottom, #91bee6 0%, #91bee6 100%);
 }

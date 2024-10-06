@@ -24,7 +24,7 @@
 }
 
 .editor-input:focus {
-	border: 1px solid #0000ff;
+	border: 1px solid #F39700;
 }
 
 .editor-input-disd {
@@ -160,7 +160,7 @@ span.grid-combobox-editor {
 	border-right: 0px;
 }
 .payment-rule-editor .z-combobox-input:focus {
-	border: 1px solid #0000ff;
+	border: 1px solid #F39700;
 }
 .payment-rule-editor .z-combobox-input.editor-input-disd {
 	padding-right: 22px !important;
@@ -210,6 +210,13 @@ span.grid-combobox-editor {
 	cursor: pointer;
 	border: 1px solid #C5C5C5;
 	overflow: auto;
+    border-radius: 4px;
+}
+.html-field:hover {
+    border-color: #A8A8A8;
+}
+.html-field:focus {
+    border-color: #0093F9;
 }
 
 .dashboard-field-panel.z-panel, .dashboard-field-panel.z-panel > .z-panel-body,  .dashboard-field-panel.z-panel > .z-panel-body > .z-panelchildren  {

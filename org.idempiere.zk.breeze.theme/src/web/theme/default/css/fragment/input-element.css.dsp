@@ -55,5 +55,5 @@ input:focus, textarea:focus, .z-combobox-input:focus, z-datebox-input:focus, sel
 
 <%-- workaround for http://jira.idempiere.com/browse/IDEMPIERE-692 --%>
 .z-combobox-popup {
-	max-height: 200px;
+	max-height: 300px;
 }
