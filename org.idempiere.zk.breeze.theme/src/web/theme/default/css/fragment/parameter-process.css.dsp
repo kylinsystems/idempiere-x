@@ -7,6 +7,7 @@ when detect side effect, fix to only apply for parameter window*/
 .z-window.z-window-noborder.z-window-noheader.z-window-embedded .z-window-content,
 .main-parameter-layout {
 	height: 100%;
+    background-color: #FFFFFF;
 }
 .process-modal-dialog {
 	width: 600px;
@@ -28,6 +29,14 @@ when detect side effect, fix to only apply for parameter window*/
 .report-option-container,
 .bottom-container{
 	width: 100%;
+    background-color: #E9F0FF;
+}
+
+.main-parameter-layout{
+	border-top: 1px solid #C5C5C5 !important;
+	border-bottom: 1px solid #C5C5C5 !important;
+	border-right: 1px solid #c5c5c5 !important;
+	border-left: 1px solid #c5c5c5 !important;
 }
 
 .report-option-container {
@@ -55,6 +64,7 @@ when detect side effect, fix to only apply for parameter window*/
 }
 
 .bottom-parameter-layout{
+	background-color: #e9f0ff;
 	padding: 4px 4px 0px 4px;
 	border-top: 1px solid rgba(0, 0, 0, 0.2);
 	overflow: visible;

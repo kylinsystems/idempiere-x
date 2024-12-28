@@ -78,6 +78,7 @@
 }
 .z-icon-Expand:before {
 	content: "\f0d7";
+    color: #329bf4;
 }
 .z-icon-Expanding:before {
 	content: "\f103";
@@ -123,6 +124,7 @@
 }
 .z-icon-Home:before {
 	content: "\f015";
+    color: #2997f3;
 }
 .z-icon-Ignore:before {
 	content: "\f0e2";

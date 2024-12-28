@@ -8,6 +8,7 @@
 .toolbar-popup-window.z-window.z-window-noheader {
 	padding: 4px;
 	padding-bottom: 0px;
+	background-color: #E9F0FF;
 }
 
 .toolbar-popup-window.process-buttons-popup .z-button {

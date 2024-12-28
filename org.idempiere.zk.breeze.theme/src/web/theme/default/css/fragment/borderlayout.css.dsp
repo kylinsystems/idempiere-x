@@ -38,12 +38,27 @@
 
 .z-borderlayout, .z-north, .z-center, .z-south {
 	border: none;
+	background-color: #E9F0FF;
+}
+
+.z-north-body, .z-south-body, .z-west-body, .z-center-body, .z-east-body {
+    background-color: #e9f0ff;
+}
+
+.z-center-body .z-paging {
+    background: #e9f0ff;
+}
+
+.z-center-body .z-frozen-body {
+    background: #e9f0ff;
 }
 
 .z-east-splitter-button,
 .z-west-splitter-button,
 .z-north-splitter-button,
 .z-south-splitter-button {
+	background-color: #FCC654;
+	color: #fff;
 	filter: alpha(opacity=100);  <%-- IE --%>
 	opacity: 1.0;  <%-- Moz + FF --%>
 }
@@ -52,6 +67,7 @@
 .z-west-splitter-button-over,
 .z-north-splitter-button-over,
 .z-south-splitter-button-over {
+	color: #fff;
 	-webkit-filter: brightness(50%);
 	filter: brightness(50%);
 }

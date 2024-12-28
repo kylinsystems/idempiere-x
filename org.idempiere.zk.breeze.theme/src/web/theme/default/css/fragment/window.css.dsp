@@ -4,6 +4,7 @@ div.wc-modal, div.wc-modal-none, div.wc-highlighted, div.wc-highlighted-none {
 
 .z-window-embedded .z-window-content {
 	border: none;
+	background: #91bee6;
 }
 
 .z-window-embedded .z-window-header, 
@@ -31,12 +32,12 @@ div.wc-modal, div.wc-modal-none, div.wc-highlighted, div.wc-highlighted-none {
 	padding: 4px;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
-	background-color: #484848;
-	border-color: #484848;
+	background-color: #91BEE6;
+	border-color: #91BEE6;
 }
 .z-window-embedded > .z-window-header {
 	border-radius: 0px;
-	background-color: transparent;
+	background-color: #91bee6;
 }
 
 .z-window-overlapped, .z-window-popup, .z-window-modal, .z-window-highlighted, 
@@ -57,6 +58,7 @@ div.wc-modal, div.wc-modal-none, div.wc-highlighted, div.wc-highlighted-none {
 
 .z-window-header, .z-window-content {
 	background-image: none !important;
+	background: #91bee6;
 }
 
 .z-window-modal-shadow, .z-window-overlapped-shadow, .z-window-popup-shadow, .z-window-embedded-shadow, .z-window-highlighted-shadow
@@ -86,14 +88,20 @@ div.wc-modal, div.wc-modal-none, div.wc-highlighted, div.wc-highlighted-none {
 .popup-dialog .dialog-content {
 	padding: 8px !important;
 	--margin-bottom: 20px !important;
+	background-color: #E9F0FF;
 }
 
 .popup-dialog.z-window-overlapped .dialog-footer {
 	padding: 12px 15px 8px 15px !important;
+	background-color: #eaf0ff;
 }
 
 .popup-dialog.z-window-highlighted .dialog-footer {
 	padding: 12px 15px 8px 15px !important;
+}
+
+.popup-dialog .z-north {
+	background-color: #E9F0FF;
 }
 
 .dialog-footer {
@@ -103,6 +111,15 @@ div.wc-modal, div.wc-modal-none, div.wc-highlighted, div.wc-highlighted-none {
 	-webkit-box-shadow: inset 0 1px 0 #ffffff;
 	-moz-box-shadow: inset 0 1px 0 #ffffff;
 	box-shadow: inset 0 1px 0 #ffffff;
+}
+
+.dialog-footer .z-south-body .z-hlayout {
+    white-space: nowrap;
+    background-color: #eaf0ff;
+}
+
+.dialog-footer .z-south-body {
+    background-color: #eaf0ff;
 }
 
 .btn-ok {

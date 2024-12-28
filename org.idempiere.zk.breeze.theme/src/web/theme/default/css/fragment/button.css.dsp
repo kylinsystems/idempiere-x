@@ -12,7 +12,7 @@
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
   background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
   background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
-  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+  background-image: linear-gradient(to bottom, #eaf0ff, hsl(208deg 63% 74%));
   background-repeat: repeat-x;
   border: 1px solid #cccccc;
   border-color: #e6e6e6 #e6e6e6 #bfbfbf;
@@ -132,6 +132,14 @@
 .z-button {
 	vertical-align: middle;
 	text-align: center;
+}
+.btn-ok, .btn-ok:focus {
+	background-color: #f8c36d;
+	background-image: linear-gradient(to bottom, #f8c36d, #f39700);
+}
+.btn-cancel, .btn-cancel:focus {
+	background-color: #f8c36d;
+	background-image: linear-gradient(to bottom, #f8c36d, #f39700);
 }
 .btn-ok.z-button [class^="z-icon-"]:before {
 	color: green;	

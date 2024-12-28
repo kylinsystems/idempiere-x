@@ -18,7 +18,7 @@
 	padding: 0px;
     border-radius: 0px;
     background-color: transparent;
-    background: none;
+    background: #91bee6;
 }
 
 .z-tabbox-icon.z-tabbox-left-scroll .z-icon-chevron-left, .z-tabbox-icon.z-tabbox-right-scroll .z-icon-chevron-right {

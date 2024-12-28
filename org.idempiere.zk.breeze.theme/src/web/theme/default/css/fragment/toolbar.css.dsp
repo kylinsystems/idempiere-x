@@ -1,6 +1,15 @@
 .z-toolbar.z-toolbar-tabs {
 	padding-top: 0px;
-	padding-bottom: 0px;
+	background-color: #E9F0FF;
+    padding-bottom: 0px;
+}
+
+.z-toolbar-content .z-separator-vertical {
+    display: inline-block;
+    border-left: 1px dotted #2997f3;
+    margin: 0px 6px 0px 6px;
+    width: 0px;
+    overflow: hidden;
 }
 
 .toolbar {
@@ -83,7 +92,7 @@
 	color: inherit;
 }
 .font-icon-toolbar-button.toolbar-button {
-	color :#333;
+	color :#2997f3;
 }
 .font-icon-toolbar-button.toolbar-button, .font-icon-toolbar-button.toolbar-button .z-toolbarbutton-content {
 	display:inline-flex;

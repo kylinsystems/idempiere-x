@@ -17,7 +17,7 @@
 }
 
 .adwindow-form > .z-grid-body {
-	background-color: #F9F9F9;
+	background-color: #E9F0FF;
 }
 .adwindow-form.z-grid > .z-grid-body {
 	overflow: visible !important;
@@ -28,7 +28,9 @@
 	border: none;
 	width: 100%;
 	height: 100%;
-	background-color: #F9F9F9;
+	background-color: #FFFFFF;
+	border-right: 1px solid #c5c5c5 !important;
+	border-left: 1px solid #c5c5c5 !important;
 }
 
 .adwindow-layout .z-center {
@@ -53,6 +55,7 @@
 
 .adwindow-status {
 	min-height: 22px;
+	background-color:#E9F0FF;
 }
 
 .adwindow-status-docinfo {
@@ -78,10 +81,10 @@
 
 .adwindow-toolbar {
 	border: 0px;
-	padding: 2px 4px;
 	height: 36px;
 	background-image: none;
-	background-color: #fff;
+	background-color: #ffffff;
+	border-bottom: 1px solid #C5C5C5;
 }
 .adwindow-toolbar.mobile {
 	position: relative;
@@ -90,7 +93,7 @@
 
 .adwindow-breadcrumb {
 	min-height: 30px;
-	background-color: #FFF;
+	background-color: #91bee6;
 	padding: 0px;
 	padding-left: 5px;
 	border-bottom: 1px solid #C5C5C5 !important;
@@ -142,13 +145,14 @@
 }
 
 .adwindow-detailpane-tabpanel {
-	background-color: #fff
+	background-color: #E9F0FF
 }
 
 .adwindow-detailpane-toolbar {
 	border: none;
 	height: 2em;
-	background: none;
+	background: #91bee6;
+	border-bottom: 1px solid #C5C5C5 !important;
 }
 
 .adwindow-detailpane-toolbar .z-toolbar-body {
@@ -161,6 +165,7 @@
 	padding: 0px;
 	padding-left: 1px;
 	width: 20px;
+	background: #e9f0ff;
 }
 
 .adwindow-detailpane-toolbar .z-toolbarbutton img {
@@ -215,12 +220,12 @@
 
 .adwindow-gridview-detail + .z-south-splitter {
 	border-top: 1px solid #C5C5C5;
-	border-bottom: 1px solid #C5C5C5;
+	border-bottom: 0px solid #C5C5C5;
 }
 
 .adwindow-gridview-detail .z-south-body {
-	padding-top: 1px;
-	background-color: #D3D3D3;
+	padding-top: 2px;
+	background-color: #e9f0ff;
 }
 
 .adwindow-gridview-borderlayout {
@@ -252,6 +257,7 @@
 	border:none !important;
 	margin:0;
 	padding:0;
+	background-color: #E9F0FF;
 }
 
 .adtab-grid {
@@ -276,7 +282,7 @@
 }
 
 .adtab-form-borderlayout .z-center {
-	background-color: #F9F9F9;
+	background-color: #E9F0FF;
 }
 
 .adtab-form-borderlayout .z-south-collapsed:before { 
@@ -356,6 +362,7 @@
 }
 .adtab-grid > .z-grid-header > table > tbody > tr.z-columns > th.z-column > .z-column-content {
 	text-overflow: ellipsis;	
+	background: #cce5f4;
 }
 @media only screen 
   and (max-device-width: 700px) {

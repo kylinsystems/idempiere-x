@@ -36,7 +36,7 @@ Copyright (C) 2009 Idalica Corporation
 <div class="versionInfoBox" if="${isInfoShown == true}">
 	<table border="0">
 		<tr if="${isVersionShown == true}">
-			<td align="right">Version</td>
+			<td align="right">Application Version</td>
 			<td>:</td>
 			<td align="left">${mainVersion}</td>
 		</tr>
@@ -45,7 +45,7 @@ Copyright (C) 2009 Idalica Corporation
 			<td>:</td>
 			<td align="left">${dbVersion}</td>
 		</tr>
-		<tr if="${isVendorShown == true}">
+		<!-- <tr if="${isVendorShown == true}">
 			<td align="right">Vendor</td>
 			<td>:</td>
 			<td align="left">${vendor}</td>
@@ -59,7 +59,7 @@ Copyright (C) 2009 Idalica Corporation
 			<td align="right">OS</td>
 			<td>:</td>
 			<td align="left">${os}</td>
-		</tr>
+		</tr> -->
 		<tr if="${isHostShown == true}">
 			<td align="right">Host</td>
 			<td>:</td>
