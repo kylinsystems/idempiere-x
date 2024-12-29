@@ -195,6 +195,9 @@ public class AboutWindow extends Window implements EventListener<Event> {
 		Tabpanel tabPanel = createAbout();
 		tabPanel.setParent(tabPanels);
 
+		MUser user = MUser.get(Env.getCtx());
+		if (user.isAdministrator()) // only open to administrator
+		{
 		//Credit
 		tab = new Tab();
 		tab.setLabel(Msg.getMsg(Env.getCtx(), "Credits"));
@@ -216,7 +219,7 @@ public class AboutWindow extends Window implements EventListener<Event> {
 		tab.setParent(tabs);
 		tabPanel = createTrace();
 		tabPanel.setParent(tabPanels);
-
+		}
 	}
 
 	/**
@@ -454,16 +457,26 @@ public class AboutWindow extends Window implements EventListener<Event> {
 		
 		Image image = new Image(ThemeManager.getLargeLogo());
 		image.setParent(vbox);
-
+		
+		MUser user = MUser.get(Env.getCtx());
+		if (user.isAdministrator()) // only open to administrator
+		{
+		Text text = new Text("Powered by iDempiere");
+		text.setParent(vbox);
+		Separator separator = new Separator();
+		separator.setParent(vbox);
+		
+		image = new Image(ThemeManager.getPoweredByIdempiereLogo());
+		image.setParent(vbox);
 		vbox = new Vbox();
 		LayoutUtils.addSclass("about-main-panel-version", vbox);
 		ZKUpdateUtil.setWidth(vbox, "100%");
 		vbox.setAlign("center");
 		vbox.setParent(vb);
 		
-		Text text = new Text(Adempiere.getSubtitle());
+		text = new Text(Adempiere.getSubtitle());
 		text.setParent(vbox);
-		Separator separator = new Separator();
+		separator = new Separator();
 		separator.setParent(vbox);
 		text = new Text(Adempiere.getVersion());
 		text.setParent(vbox);
@@ -505,6 +518,7 @@ public class AboutWindow extends Window implements EventListener<Event> {
 		link.setHref("https://mattermost.idempiere.org");
 		link.setTarget("_blank");
 		link.setParent(vbox);
+		}
 
 		return tabPanel;
 	}

@@ -105,7 +105,7 @@ public class UserPanel implements EventListener<Event>, Composer<Component>
     	}
     	else
     	{
-	    	lblUserNameValue.setValue(getUserName() + "@" + getClientName() + "." + getOrgName()+"/"+this.getRoleName());	    	
+			lblUserNameValue.setValue(getUserName() + " [" + getClientName() + "." + getOrgName()+"/"+this.getRoleName() + "]");
     	}
     	lblUserNameValue.addEventListener(Events.ON_CLICK, this);
 

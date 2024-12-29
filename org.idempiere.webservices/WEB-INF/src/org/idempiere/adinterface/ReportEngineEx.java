@@ -320,7 +320,7 @@ public class ReportEngineEx { //extends  ReportEngine  {
 ".xl_head "+
 "{text-align:center; mso-style-parent:style0; "+
 "font-weight:700; "+
-"font-family:Arial, sans-serif; "+
+"font-family:Arial,\"Microsoft Yahei\",\"微软雅黑\",\"Noto Sans SC\",sans-serif; "+
 "mso-font-charset:238; "+
 "border:.5pt solid windowtext; "+
 "background:silver; "+
