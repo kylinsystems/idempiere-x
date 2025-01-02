@@ -19,3 +19,19 @@
 .find-window .z-toolbar {
 	border-bottom: 0px;
 }
+
+.find-window .z-tabpanel {
+    background-color: #c7e8ff;
+}
+
+.find-window .z-south-body {
+    background-color: #c7e8ff;
+}
+
+.find-window .z-center-body {
+    background-color: #c7e8ff;
+}
+
+.find-window .z-east-body {
+    background-color: #c7e8ff;
+}

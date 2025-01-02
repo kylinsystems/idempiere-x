@@ -25,7 +25,7 @@ html,body {
 	padding: 0;
 	height: 100%;
 	width: 100%;
-	background-color: #D4E3F4;
+	background-color: #c7e8ff;
 	color: #333;
 	font-family: -apple-system, BlinkMacSystemFont, "Microsoft Yahei", "Noto Sans SC", "Noto Serif SC", "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 	overflow: hidden;

@@ -8,6 +8,7 @@
  
 .adwindow-form.z-grid > .z-grid-body {
 	overflow: visible !important;
+	background-color: #c7e8ff;
 }
 
 <%-- main vlayout of AD window --%>
@@ -16,6 +17,7 @@
 	border: none;
 	width: 100%;
 	height: 100%;
+	background-color: #c7e8ff;
 }
 
 .adwindow-layout .z-center {
@@ -35,7 +37,7 @@
 .adwindow-status {
 	min-height: 22px;
 	padding-top: 3px;
-	background-color: #f6fafe;
+	background-color: #c7e8ff;
 }
 
 <%-- record info text, east of status bar --%>
@@ -64,10 +66,9 @@
 
 .adwindow-breadcrumb {
 	min-height: 32px;
-	background-color: #FFF;
+	background-color: #7ac8ff;
 	padding: 0px;
 	padding-left: 5px;
-	border-bottom: 1px solid #C5C5C5 !important;
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
@@ -123,14 +124,14 @@
 }
 
 .adwindow-detailpane-tabpanel {
-	background-color: #fff
+	padding: 0px;
 }
 
 <%-- toolbar of detail panel --%>
 .adwindow-detailpane-toolbar {
 	border: none;
 	height: 2em;
-	background: none;
+	background: #7ac8ff;
 }
 .adwindow-detailpane-toolbar .z-toolbar-body {
 	width: 100%;
@@ -140,6 +141,8 @@
 	padding: 0px;
 	width: 20px;
 	line-height: 14px;
+	border: none;
+	background: #e9f0ff;
 }
 .adwindow-detailpane-toolbar .z-toolbarbutton img {
 	width: 16px;
@@ -167,15 +170,16 @@
 .adwindow-detailpane-adtab-grid-south {
 	background-color: transparent; 
 	position: absolute; 
-	right: 0px; 
+	right: 30px; 
 	top: 0px; 
 	height: 24px;
+	padding-top: 4px;
 }
 .adwindow-detailpane-adtab-grid-south .z-paging {
-	padding: 0px !important;
+	padding: 1px !important;
 	height: 2em;
 	border: none;
-	background: #ffffff;
+	background: #7ac8ff !important;
 }
 .adwindow-detailpane-adtab-grid-south .z-paging .z-paging-inp {
 	height: 16px;
@@ -190,9 +194,15 @@
 .adwindow-gridview-detail {
 	min-height: 200px;
 	height: 35%;
+	background-color: #c7e8ff;
 }
 .adwindow-gridview-detail .z-south-body {
-	padding-top: 1px;
+	padding-top: 0px;
+	background-color: #c7e8ff;
+}
+.adwindow-gridview-detail + .z-south-splitter {
+	background-color: #c7e8ff;
+	border-top: 1px solid #cccccc;
 }
 
 <%-- AD tab in detail panel with tab level greater than 0 --%>
@@ -216,6 +226,7 @@
 	padding: 0;
 	border: none;
 	position: relative;
+	background-color: #c7e8ff;
 }
 
 .adtab-grid {
@@ -225,6 +236,7 @@
 .adtab-grid-south {
 	border: none;
 	height: 30px;
+	background-color: #c7e8ff;
 }
 .adtab-grid-south .z-paging {
 	border: none;
@@ -238,6 +250,11 @@
 .adtab-grid > .z-grid-header > table > tbody > tr.z-columns > th.z-column > .z-column-content {
 	text-overflow: ellipsis;	
 }
+.adtab-grid > .z-grid-header > table > tbody > tr.z-columns > .z-columns-bar {
+    background: #e0f2ff;
+    border-left: 1px solid #cccccc;
+    border-bottom: 1px solid #c7e8ff;
+}
 
 .adtab-form {
 	border:none !important;
@@ -249,14 +266,22 @@
 	width: 100%; 
 	height: 100%; 
 	position: absolute;
+	background-color: #c7e8ff;
 }
 .adtab-form-borderlayout .z-center-body {
-	background-color: #f6fafe;
+	background-color: #c7e8ff;
+	padding:0;
 }
 
 .adtab-form-borderlayout .z-grid-body {
-	background-color: #f6fafe;
+	background-color: #c7e8ff;
  }
+
+ .adtab-form-borderlayout.z-borderlayout .z-paging {
+	background-color: #c7e8ff;
+	height: 32px;
+	padding: 0px 0px 0px 0px;
+}
 
 <%-- title text for collapsed detail panel --%>
 .adtab-form-borderlayout .z-south-collapsed:before { 

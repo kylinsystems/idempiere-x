@@ -1,7 +1,7 @@
 <%-- header --%>
 .desktop-north {
 	background-color: #C7E8FF;
-	border-bottom: 1px solid #ADDDFF !important;
+	border-bottom: 1px solid #c7e8ff !important;
 }
 <%-- left panel for logo and global search --%>
 .desktop-header-left {
@@ -14,6 +14,7 @@
 
 .desktop-header {
 	background-color: #C7E8FF;
+	background-image: linear-gradient(#7ac8ff, #C7E8FF);
 	width: 100%;
 	height: 46px;
 	padding-left: 4px;
@@ -95,6 +96,9 @@
 .desktop-center > .z-center-body {
 	padding: 0px;
 }
+.desktop-center .desktop-tabbox .z-tabpanel {
+    background: #c7e8ff;
+}
 
 <%-- tabbox for application windows --%>
 .desktop-tabbox {
@@ -152,11 +156,33 @@
 	padding: 0;
 	border: 0;
 	position: relative !important;
+	border: 1px solid #cccccc !important;
 }
 .desktop-tabpanel > .z-window-embedded {
 	border: none;
 }
+.desktop-tabpanel.z-tabpanel .z-window-content {
+	padding: 0px;
+}
+
+.desktop-tabpanel.z-tabpanel .z-borderlayout .z-center {
+    background: #c7e8ff;
+}
+.desktop-tabpanel.z-tabpanel .z-borderlayout .z-south {
+    background: #c7e8ff;
+}
+.desktop-tabpanel.z-tabpanel .z-borderlayout .z-north {
+    background: #c7e8ff;
+}
+.desktop-tabpanel.z-tabpanel .z-borderlayout .z-south-splitter {
+	border-top: 1px solid #cccccc;
+    background: #c7e8ff;
+}
+
 <%-- the home tab panel --%>
+.desktop-hometab {
+	font-weight:bold
+}
 .desktop-home-tabpanel {
 	width: 100% !important;
 }
@@ -169,12 +195,13 @@
 	width: 200px;
 	border: none;
 	border-right: 1px solid #C5C5C5;
-	background-color: #f6fafe;
+	background-color: #c7e8ff;
 	padding-top: 2px; 
 }
 .desktop-left-column + .z-west-splitter,  .desktop-left-column.z-west {
 	border-top: none; 
-	border-right: 1px solid transparent;
+	border-right: 0px solid transparent;
+	background-color: #c7e8ff;
 }
 .desktop-left-column .z-west-body {
 	border-right: none;
@@ -185,12 +212,13 @@
 	width: 200px;
 	border: none;
 	border-left: 1px solid #C5C5C5;
-	background-color: #f6fafe;
+	background-color: #c7e8ff;
 	padding-top: 2px; 
 }
 .desktop-right-column + .z-east-splitter,  .desktop-right-column.z-east {
 	border-top: none; 
-	border-left: 1px solid transparent;
+	border-left: 0px solid transparent;
+	background-color: #c7e8ff;
 }
 .desktop-right-column .z-east-body {
 	border-left: none;

@@ -13,6 +13,10 @@
 	background-color: transparent;
 }
 
+.login-window .z-west-splitter {
+	background: #00000040;
+}
+
 .login-box-body {
 	width: 720px;
     background: rgba(234,240,256,0.5);
