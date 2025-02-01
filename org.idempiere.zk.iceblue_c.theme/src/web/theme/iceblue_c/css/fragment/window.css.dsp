@@ -85,7 +85,10 @@ div.wc-modal, div.wc-modal-none, div.wc-highlighted, div.wc-highlighted-none {
 .popup-dialog .dialog-content {
 	padding: 8px !important;
 	--margin-bottom: 20px !important;
-	background-color: #c7e8ff;
+	background-color: #c7e8ff !important;
+}
+.popup-dialog .z-vlayout .z-vlayout-inner {
+   padding-bottom: 0px !important;
 }
 
 .popup-dialog.z-window-overlapped .dialog-footer {

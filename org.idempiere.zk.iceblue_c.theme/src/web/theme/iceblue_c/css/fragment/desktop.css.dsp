@@ -151,6 +151,12 @@
 	height: 16px;
 }
 
+.desktop-tabbox.z-tabbox .adtab-form .z-vlayout-inner .z-tabbox-top {
+    padding: 0px 0px 0px 0px !important; 
+    width: 97% !important;
+	margin: 20px 0px 20px 20px !important;
+}
+
 .desktop-tabpanel {
 	margin: 0;
 	padding: 0;
