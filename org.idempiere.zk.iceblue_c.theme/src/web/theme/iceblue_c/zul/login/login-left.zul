@@ -9,5 +9,6 @@ Copyright (C) 2009 Idalica Corporation
 <?component name="loginLinks" inline="true" macroURI="~./theme/iceblue_c/zul/login/login-links.zul"?>
 <div>
 	<vendorLogo/>
+	<loginInfo/>
 	<versionInfo/>
 </div>

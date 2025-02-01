@@ -5,12 +5,18 @@ Copyright (C) 2009 Idalica Corporation
 -->
 <zk>
 
-<div style="margin: 5px;">
+<zscript>
+    import org.compiere.Adempiere;
+	var isVersionShown = Adempiere.isVersionShown();
+</zscript>
+<div style="background-color: #E5E5E5; margin: 5px;">
 	<hbox align="center">
-		<a href="../" target="_self"><image src="~./theme/default/images/vendor-app-logo.png"/></a>		
+		<a href="../" target="_blank"><image src="~./theme/default/images/vendor-app-logo.png"/></a>
+		<label value="" if="${isVersionShown == true}"
+			style="font-family:Arial,sans-serif; color:#578BB8; font-size:1.5em; font-weight: bold;" />
 	</hbox>
 </div>
-<div style="height: 90px" >
+<div style="height: 90px">
 	<space/>
 </div>
 

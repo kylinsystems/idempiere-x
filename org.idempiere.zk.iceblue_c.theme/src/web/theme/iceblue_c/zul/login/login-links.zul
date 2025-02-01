@@ -5,6 +5,10 @@ Copyright (C) 2009 Idalica Corporation
 -->
 <zk>
 
+<zscript>
+    import org.compiere.Adempiere;
+	var isLoginInfoShown = Adempiere.isLoginInfoShown();
+</zscript>
 <style>
 	.loginLinksBox {
 		padding: 0;
@@ -15,7 +19,7 @@ Copyright (C) 2009 Idalica Corporation
 	}
 </style>
 
-<div class="loginLinksBox" 
+<div class="loginLinksBox" if="${isLoginInfoShown == true}"
 	style="position: absolute; bottom: 30px;">
 
     <toolbarbutton href="http://www.idempiere.org" image="~./theme/iceblue_c/images/powered-by-idempiere.png" width="70%"
